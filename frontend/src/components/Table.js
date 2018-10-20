@@ -1,28 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 import key from "weak-key";
+import ScheduleItem from "./ScheduleItem";
+
 const Table = ({ data }) =>
   !data.length ? (
     <p>Nothing to show</p>
   ) : (
-    <div className="column">
-      <h2 className="subtitle">
-        Showing <strong>{data.length} items</strong>
-      </h2>
-      <table className="table is-striped">
-        <thead>
-          <tr>
-            {Object.entries(data[0]).map(el => <th key={key(el)}>{el[0]}</th>)}
-          </tr>
-        </thead>
-        <tbody>
-          {data.map(el => (
-            <tr key={el.id}>
-              {Object.entries(el).map(el => <td key={key(el)}>{el[1]}</td>)}
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className="container w-75 col col-9 bg-light" id="sched">
+        <h2 className="text-center p-2">Scheduled Room Bookings</h2>
+        <h3><strong>{data.length}</strong> bookings</h3>
+        <div className="container" id="times">
+            {data.map(el => (
+                <ScheduleItem data={el} />
+            ))}
+        </div>
     </div>
   );
 Table.propTypes = {
