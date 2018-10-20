@@ -18,4 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include('table_list.urls')),
+    #path('', include('frontend.urls'))
 ]
