@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: Robinhood
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Jamonek/Robinhood
+Author: Jamone Kelly
+Author-email: TODO
+License: MIT
+Download-URL: https://github.com/Jamonek/Robinhood/tarball/v1.0.1
+Description: UNKNOWN
+Keywords: Robinhood trade API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 2.7

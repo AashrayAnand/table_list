@@ -1,0 +1,29 @@
+[
+    {
+        "model": "table_list.table_items",
+        "pk": 1,
+        "fields": {
+            "location": "study room 224",
+            "date": "2018-01-04 00:00:00",
+            "day_of_week": "Monday"
+        }
+    },
+    {
+        "model": "table_list.table_items",
+        "pk": 2,
+        "fields": {
+            "location": "study room 225",
+            "date": "2018-11-05 01:01:10",
+            "day_of_week": "Monday"
+        }
+    },
+    {
+        "model": "table_list.table_items",
+        "pk": 1,
+        "fields": {
+            "location": "study room 1",
+            "date": "2017-01-04 00:20:00",
+            "day_of_week": "Tuesday"
+        }
+    }
+]
