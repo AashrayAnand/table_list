@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import DataProvider from "./DataProvider";
 import Table from "./Table";
 const App = () => (
-  <DataProvider endpoint="api/lead/" 
+  <DataProvider endpoint="api/list/" 
                 render={data => <Table data={data} />} />
 );
 const wrapper = document.getElementById("app");
