@@ -5,7 +5,7 @@ const ScheduleItem = ({data}) => (
         <div className="card-body">
             <h3 className="card-title">{data.location}</h3>
             <ul className="m-0">
-                <li>{convDate(new Date(data.date))}</li>
+                <li>{convDate(new Date(data.start_date))}</li>
                 <li>{convTime(new Date(data.start_date))} - {convTime(new Date(data.end_date))}</li>
             </ul>
         </div>
