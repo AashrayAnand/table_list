@@ -103,7 +103,7 @@ def convertItemsToJSON(items, soup):
         json_items.append(json_item)
         print(json_item)
     with open('../table_list/fixtures/items.json', 'w') as outfile:
-        outfile.write(str(json.dump(json_items, outfile, indent=4)))
+        outfile.write(json.dump(json_items, outfile, indent=4))
 ######## JSON format ########
 #[
     #{
