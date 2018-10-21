@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 from selenium.webdriver import FirefoxOptions
 import re
-import datetime
+from datetime import datetime
 import json
 
 opts = FirefoxOptions()
@@ -92,9 +92,14 @@ def convertItemsToJSON(items, soup):
         day = re.search("[0-9]+", date[1]).group(0)
         print("{}\n    {}\n    {}\n    {}\n".format(date[0], month_dictionary.get(month), day, date[2]))
         clean_times = times[0][0:len(times[0]) - 2].split(":")
+        start_time_period = (times[0][len(times[0])  - 2:len(times[0])]).upper()
+        print(start_time_period)
         print("{}    {}".format(clean_times[0], clean_times[1]))
         # create date time object
-        date_time = datetime.datetime(year=int(date[2]), month=month_dictionary.get(month), day=int(day), hour=int(clean_times[0]), minute=int(clean_times[1]))
+        date_string = "{}-{}-{} {}:{} {}".format(date[2], month_dictionary.get(month), day, clean_times[0], clean_times[1], start_time_period)
+        format = '%Y-%m-%d %I:%M %p'
+        date_time = datetime.strptime(date_string, format)
+        #date_time = datetime.datetime(year=int(date[2]), month=month_dictionary.get(month), day=int(day), hour=int(clean_times[0]), minute=int(clean_times[1]))
         field_item["date"] = str(date_time)
         field_item["day_of_week"] = date[0]
         json_item["fields"] = field_item
