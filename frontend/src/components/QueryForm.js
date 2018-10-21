@@ -20,4 +20,8 @@ const QueryForm = () => {
     );
 }
 
+$("#whenSelect").change(() => {
+    alert("Changed to: " + $("#whenSelect").value());
+});
+
 export default QueryForm;

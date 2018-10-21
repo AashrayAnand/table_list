@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import QueryForm from "./QueryForm";
 import DataProvider from "./DataProvider";
+import Footer from "./Footer";
 import Table from "./Table";
 const App = () => (
   <div className="container">
@@ -10,6 +11,7 @@ const App = () => (
         <QueryForm />
         <DataProvider endpoint="api/list/" 
                       render={data => <Table data={data} />} />
+        <Footer />
       </div>
   </div>
 );

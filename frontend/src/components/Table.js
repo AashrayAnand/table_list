@@ -12,7 +12,7 @@ const Table = ({ data }) =>
         <h3 className="text-center p-1 text-muted"><strong>{data.length}</strong> bookings</h3>
         <div className="container" id="times">
             {data.map(el => (
-                <ScheduleItem data={el} />
+                <ScheduleItem data={el} key={key(el)}/>
             ))}
         </div>
     </div>

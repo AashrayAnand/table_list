@@ -1,12 +1,10 @@
 import React from 'react';
-import PropTypes from "prop-types";
-import key from "weak-key";
 
 const ScheduleItem = ({data}) => (
-    <div className="card my-2" key={data.pk}>
+    <div className="card my-2">
         <div className="card-body">
             <h3 className="card-title">{data.location}</h3>
-            <ul>
+            <ul className="m-0">
                 <li>{dateTime(new Date(data.date))}</li>
             </ul>
         </div>
