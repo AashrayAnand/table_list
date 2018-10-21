@@ -5,7 +5,9 @@ import ScheduleItem from "./ScheduleItem";
 
 const Table = ({ data }) =>
   !data.length ? (
-    <p>Nothing to show</p>
+    <div>
+        <h2 className="text-center p-2">No Bookings to Show</h2>
+    </div>
   ) : (
     <div className="container w-75 col col-9 bg-light" id="sched">
         <h2 className="text-center p-2">Scheduled Room Bookings</h2>
