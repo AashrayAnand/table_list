@@ -1,13 +1,16 @@
 import React from 'react';
 
 const ScheduleItem = ({data}) => (
-    <div className="card my-2">
-        <div className="card-body">
+    <div className="card my-4 mx-auto w-75">
+        <div className="card-body text-center">
             <h3 className="card-title">{data.location}</h3>
-            <ul className="m-0">
-                <li>{convDate(new Date(data.start_date))}</li>
+            <ul className="card-text">
+                <li className="lead">{convDate(new Date(data.start_date))}</li>
                 <li>{convTime(new Date(data.start_date))} - {convTime(new Date(data.end_date))}</li>
             </ul>
+            <div className="card-footer text-muted">
+                <small>Available In: {timeUntil(new Date(data.start_date))}</small>
+            </div>
         </div>
     </div> 
 );
@@ -23,10 +26,21 @@ const convDate = (d) => {
 
 const convTime = (d) => {
     var hours = d.getUTCHours();
-    var pm = hours > 12;
-    hours = (pm ? hours - 12 : hours);
+    var pm = hours >= 12;
+    hours = (pm && hours != 12 ? hours - 12 : hours);
     var time = hours + ":" + (d.getUTCMinutes() == 0 ? "00" : "30") + (pm ? "PM" : "AM");
     return (time);
+}
+
+const timeUntil = (d) => {
+    var millis = d - new Date();
+    var minutes = Math.floor(millis / 60000);
+    var hours = Math.floor(minutes / 60);
+    var days = Math.floor(hours / 60);
+    minutes = Math.floor(minutes % 60);
+    return (days + (days == 1 ? " day " : " days ") + 
+            hours + (hours == 1 ? " hour " : " hours ") + 
+            minutes + (minutes == 1 ? " minute" : " minutes"));
 }
 
 export default ScheduleItem;
