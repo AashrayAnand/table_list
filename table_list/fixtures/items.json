@@ -4,7 +4,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-25 09:30:00",
+            "start_date": "2018-10-25 09:30:00",
+            "end_date": "2018-10-25 12:30:00",
             "day_of_week": "Thursday"
         }
     },
@@ -13,7 +14,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-26 17:30:00",
+            "start_date": "2018-10-26 17:30:00",
+            "end_date": "2018-10-26 18:00:00",
             "day_of_week": "Friday"
         }
     },
@@ -22,7 +24,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 12:00:00",
+            "start_date": "2018-10-28 12:00:00",
+            "end_date": "2018-10-28 12:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -31,7 +34,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 14:00:00",
+            "start_date": "2018-10-28 14:00:00",
+            "end_date": "2018-10-28 14:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -40,7 +44,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 16:00:00",
+            "start_date": "2018-10-28 16:00:00",
+            "end_date": "2018-10-28 16:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -49,7 +54,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 18:00:00",
+            "start_date": "2018-10-28 18:00:00",
+            "end_date": "2018-10-28 18:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -58,7 +64,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 20:00:00",
+            "start_date": "2018-10-28 20:00:00",
+            "end_date": "2018-10-28 20:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -67,7 +74,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 22:00:00",
+            "start_date": "2018-10-28 22:00:00",
+            "end_date": "2018-10-28 22:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -76,7 +84,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-29 09:00:00",
+            "start_date": "2018-10-29 09:00:00",
+            "end_date": "2018-10-29 11:00:00",
             "day_of_week": "Monday"
         }
     },
@@ -85,7 +94,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-29 12:00:00",
+            "start_date": "2018-10-29 12:00:00",
+            "end_date": "2018-10-29 12:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -94,7 +104,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-29 14:00:00",
+            "start_date": "2018-10-29 14:00:00",
+            "end_date": "2018-10-29 14:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -103,7 +114,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-29 16:00:00",
+            "start_date": "2018-10-29 16:00:00",
+            "end_date": "2018-10-29 16:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -112,7 +124,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-22 09:30:00",
+            "start_date": "2018-10-22 09:30:00",
+            "end_date": "2018-10-22 12:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -121,7 +134,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-26 09:30:00",
+            "start_date": "2018-10-26 09:30:00",
+            "end_date": "2018-10-26 11:30:00",
             "day_of_week": "Friday"
         }
     },
@@ -130,7 +144,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-26 19:00:00",
+            "start_date": "2018-10-26 19:00:00",
+            "end_date": "2018-10-26 19:30:00",
             "day_of_week": "Friday"
         }
     },
@@ -139,7 +154,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 13:00:00",
+            "start_date": "2018-10-28 13:00:00",
+            "end_date": "2018-10-28 13:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -148,7 +164,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 15:00:00",
+            "start_date": "2018-10-28 15:00:00",
+            "end_date": "2018-10-28 15:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -157,7 +174,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 17:00:00",
+            "start_date": "2018-10-28 17:00:00",
+            "end_date": "2018-10-28 17:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -166,7 +184,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 19:00:00",
+            "start_date": "2018-10-28 19:00:00",
+            "end_date": "2018-10-28 19:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -175,7 +194,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 21:00:00",
+            "start_date": "2018-10-28 21:00:00",
+            "end_date": "2018-10-28 21:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -184,7 +204,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-28 23:00:00",
+            "start_date": "2018-10-28 23:00:00",
+            "end_date": "2018-10-28 23:30:00",
             "day_of_week": "Sunday"
         }
     },
@@ -193,7 +214,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-29 11:00:00",
+            "start_date": "2018-10-29 11:00:00",
+            "end_date": "2018-10-29 11:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -202,7 +224,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-29 13:00:00",
+            "start_date": "2018-10-29 13:00:00",
+            "end_date": "2018-10-29 13:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -211,7 +234,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-29 15:00:00",
+            "start_date": "2018-10-29 15:00:00",
+            "end_date": "2018-10-29 15:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -220,7 +244,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "ode",
-            "date": "2018-10-29 17:00:00",
+            "start_date": "2018-10-29 17:00:00",
+            "end_date": "2018-10-29 17:30:00",
             "day_of_week": "Monday"
         }
     }

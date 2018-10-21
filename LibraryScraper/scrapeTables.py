@@ -71,10 +71,9 @@ def convertItemsToJSON(items, soup):
     for iterator, item in enumerate(items):
         print(iterator)
         json_item = {}
+        ###### add JSON values to item ######
         json_item['pk'] = iterator
         json_item['model'] = model_name
-        field_item = {}
-        field_item["location"] = location
         clean_text = "".join(item.getText().split())
         # search for times (start and end) in clean text
         time_range = re.search("[0-9]+:[0-9apm]+-[0-9]+:[0-9apm]+", clean_text)
@@ -91,19 +90,34 @@ def convertItemsToJSON(items, soup):
         # get day from date
         day = re.search("[0-9]+", date[1]).group(0)
         print("{}\n    {}\n    {}\n    {}\n".format(date[0], month_dictionary.get(month), day, date[2]))
-        clean_times = times[0][0:len(times[0]) - 2].split(":")
+        # split start hour and end minute into array
+        clean_start_times = times[0][0:len(times[0]) - 2].split(":")
+        # split end hour and end minute into array
+        clean_end_times = times[1][0:len(times[1]) - 2].split(":")
+        # get time period (AM/PM) for start time
         start_time_period = (times[0][len(times[0])  - 2:len(times[0])]).upper()
+        # get time period (AM/PM) for end time
+        end_time_period = (times[1][len(times[1])  - 2:len(times[1])]).upper()
         print(start_time_period)
-        print("{}    {}".format(clean_times[0], clean_times[1]))
+        print("{}    {}".format(clean_start_times[0], clean_start_times[1]))
         # create date time object
-        date_string = "{}-{}-{} {}:{} {}".format(date[2], month_dictionary.get(month), day, clean_times[0], clean_times[1], start_time_period)
+        start_date_string = "{}-{}-{} {}:{} {}".format(date[2], month_dictionary.get(month), day, clean_start_times[0], clean_start_times[1], start_time_period)
+        end_date_string = "{}-{}-{} {}:{} {}".format(date[2], month_dictionary.get(month), day, clean_end_times[0], clean_end_times[1], end_time_period)
         format = '%Y-%m-%d %I:%M %p'
-        date_time = datetime.strptime(date_string, format)
-        #date_time = datetime.datetime(year=int(date[2]), month=month_dictionary.get(month), day=int(day), hour=int(clean_times[0]), minute=int(clean_times[1]))
-        field_item["date"] = str(date_time)
+        # create datetime objects for start and end time
+        start_date_time = datetime.strptime(start_date_string, format)
+        end_date_time = datetime.strptime(end_date_string, format)
+        # create fields dictionary, add location, start and end date times to fields dictionary
+        field_item = {}
+        field_item["location"] = location
+        field_item["start_date"] = str(start_date_time)
+        field_item["end_date"] = str(end_date_time)
+        # add day of week to fields dictionary
         field_item["day_of_week"] = date[0]
+        # add fields dictionary to JSON item
         json_item["fields"] = field_item
-        print(date_time)
+        print("END DATE TIME IS...")
+        print(end_date_time)
         print("-----------")
         json_items.append(json_item)
         print(json_item)
