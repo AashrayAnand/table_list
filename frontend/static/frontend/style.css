@@ -4,10 +4,14 @@ body h1, body h2, body h3 {
     font-family: "Playfair Display", serif;
 }
 
-#qform {
-    border-right: 1px solid black;
+#sched {
+    border: 1px solid black;
 }
 
 #sched li {
     list-style-type: none;
+}
+
+section {
+    background-color: aliceblue;
 }
