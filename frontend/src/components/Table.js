@@ -9,7 +9,7 @@ const Table = ({ data }) =>
   ) : (
     <div className="container w-75 col col-9 bg-light" id="sched">
         <h2 className="text-center p-2">Scheduled Room Bookings</h2>
-        <h3><strong>{data.length}</strong> bookings</h3>
+        <h3 className="text-center p-1 text-muted"><strong>{data.length}</strong> bookings</h3>
         <div className="container" id="times">
             {data.map(el => (
                 <ScheduleItem data={el} />
