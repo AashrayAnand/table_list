@@ -32,7 +32,6 @@ month_dictionary = {"January": 1,
                     "December": 12
                     }
 model_name = "table_list.table_items"
-location = "ode"
 # use selenium web driver to get library calendar page
 def getURL(browser):
     browser.get("http://uw.libcal.com/spaces/bookings?lid=1454&gid=0")
@@ -63,7 +62,7 @@ def getTimesFromPage(browser):
     items = []
     #while len(browser.find_elements_by_css_selector('#s-lc-space-nick-tb_next a')) > 0:
     for i in range(len(browser.find_elements_by_class_name('paginate_button')) - 2):
-        time.sleep(15)
+        time.sleep(5)
         soup = BeautifulSoup(browser.page_source, 'html.parser')
         # get all items in table with even class
         items = items + soup.select('tr.even') + soup.select('tr.odd')
@@ -75,6 +74,7 @@ def convertItemsToJSON(items):
     for iterator, item in enumerate(items):
         print(iterator)
         json_item = {}
+        print(item.getText())
         ###### add JSON values to item ######
         json_item['pk'] = iterator
         json_item['model'] = model_name
@@ -111,9 +111,12 @@ def convertItemsToJSON(items):
         # create datetime objects for start and end time
         start_date_time = datetime.strptime(start_date_string, format)
         end_date_time = datetime.strptime(end_date_string, format)
+        # search for room name in string, then extract room name from result of regex
+        room_search = re.search("[0-9][0-9][0-9][0-9](.)+Info", item.getText())
+        room_name = room_search.group(0)[4:len(room_search.group(0))-4]
         # create fields dictionary, add location, start and end date times to fields dictionary
         field_item = {}
-        field_item["location"] = location
+        field_item["location"] = room_name
         field_item["start_date"] = str(start_date_time)
         field_item["end_date"] = str(end_date_time)
         # add day of week to fields dictionary
