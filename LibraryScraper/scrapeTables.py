@@ -65,7 +65,9 @@ def getTimesFromPage(browser):
         time.sleep(5)
         soup = BeautifulSoup(browser.page_source, 'html.parser')
         # get all items in table with even class
-        items = items + soup.select('tr.even') + soup.select('tr.odd')
+        #items = items + soup.select('tr.even') + soup.select('tr.odd')
+        items = items + soup.select('#s-lc-space-nick-tb tbody tr')
+        print(len(items))
         browser.find_element_by_css_selector('#s-lc-space-nick-tb_next a').click()
 
     convertItemsToJSON(items)
