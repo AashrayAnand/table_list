@@ -3,126 +3,6 @@
         "pk": 0,
         "model": "table_list.table_items",
         "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-25 09:30:00",
-            "end_date": "2018-10-25 12:30:00",
-            "day_of_week": "Thursday"
-        }
-    },
-    {
-        "pk": 1,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-26 17:30:00",
-            "end_date": "2018-10-26 18:00:00",
-            "day_of_week": "Friday"
-        }
-    },
-    {
-        "pk": 2,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-28 12:00:00",
-            "end_date": "2018-10-28 12:30:00",
-            "day_of_week": "Sunday"
-        }
-    },
-    {
-        "pk": 3,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-28 14:00:00",
-            "end_date": "2018-10-28 14:30:00",
-            "day_of_week": "Sunday"
-        }
-    },
-    {
-        "pk": 4,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-28 16:00:00",
-            "end_date": "2018-10-28 16:30:00",
-            "day_of_week": "Sunday"
-        }
-    },
-    {
-        "pk": 5,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-28 18:00:00",
-            "end_date": "2018-10-28 18:30:00",
-            "day_of_week": "Sunday"
-        }
-    },
-    {
-        "pk": 6,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-28 20:00:00",
-            "end_date": "2018-10-28 20:30:00",
-            "day_of_week": "Sunday"
-        }
-    },
-    {
-        "pk": 7,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-28 22:00:00",
-            "end_date": "2018-10-28 22:30:00",
-            "day_of_week": "Sunday"
-        }
-    },
-    {
-        "pk": 8,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-29 09:00:00",
-            "end_date": "2018-10-29 11:00:00",
-            "day_of_week": "Monday"
-        }
-    },
-    {
-        "pk": 9,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-29 12:00:00",
-            "end_date": "2018-10-29 12:30:00",
-            "day_of_week": "Monday"
-        }
-    },
-    {
-        "pk": 10,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-29 14:00:00",
-            "end_date": "2018-10-29 14:30:00",
-            "day_of_week": "Monday"
-        }
-    },
-    {
-        "pk": 11,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-29 16:00:00",
-            "end_date": "2018-10-29 16:30:00",
-            "day_of_week": "Monday"
-        }
-    },
-    {
-        "pk": 12,
-        "model": "table_list.table_items",
-        "fields": {
             "location": "Study Room 317",
             "start_date": "2018-10-22 09:30:00",
             "end_date": "2018-10-22 12:30:00",
@@ -130,7 +10,17 @@
         }
     },
     {
-        "pk": 13,
+        "pk": 1,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-25 09:30:00",
+            "end_date": "2018-10-25 12:30:00",
+            "day_of_week": "Thursday"
+        }
+    },
+    {
+        "pk": 2,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -140,7 +30,17 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 3,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-26 17:30:00",
+            "end_date": "2018-10-26 18:00:00",
+            "day_of_week": "Friday"
+        }
+    },
+    {
+        "pk": 4,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -150,7 +50,17 @@
         }
     },
     {
-        "pk": 15,
+        "pk": 5,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-28 12:00:00",
+            "end_date": "2018-10-28 12:30:00",
+            "day_of_week": "Sunday"
+        }
+    },
+    {
+        "pk": 6,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -160,7 +70,17 @@
         }
     },
     {
-        "pk": 16,
+        "pk": 7,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-28 14:00:00",
+            "end_date": "2018-10-28 14:30:00",
+            "day_of_week": "Sunday"
+        }
+    },
+    {
+        "pk": 8,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -170,7 +90,17 @@
         }
     },
     {
-        "pk": 17,
+        "pk": 9,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-28 16:00:00",
+            "end_date": "2018-10-28 16:30:00",
+            "day_of_week": "Sunday"
+        }
+    },
+    {
+        "pk": 10,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -180,7 +110,17 @@
         }
     },
     {
-        "pk": 18,
+        "pk": 11,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-28 18:00:00",
+            "end_date": "2018-10-28 18:30:00",
+            "day_of_week": "Sunday"
+        }
+    },
+    {
+        "pk": 12,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -190,7 +130,17 @@
         }
     },
     {
-        "pk": 19,
+        "pk": 13,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-28 20:00:00",
+            "end_date": "2018-10-28 20:30:00",
+            "day_of_week": "Sunday"
+        }
+    },
+    {
+        "pk": 14,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -200,7 +150,17 @@
         }
     },
     {
-        "pk": 20,
+        "pk": 15,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-28 22:00:00",
+            "end_date": "2018-10-28 22:30:00",
+            "day_of_week": "Sunday"
+        }
+    },
+    {
+        "pk": 16,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -210,7 +170,17 @@
         }
     },
     {
-        "pk": 21,
+        "pk": 17,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-29 09:00:00",
+            "end_date": "2018-10-29 11:00:00",
+            "day_of_week": "Monday"
+        }
+    },
+    {
+        "pk": 18,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -220,7 +190,17 @@
         }
     },
     {
-        "pk": 22,
+        "pk": 19,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-29 12:00:00",
+            "end_date": "2018-10-29 12:30:00",
+            "day_of_week": "Monday"
+        }
+    },
+    {
+        "pk": 20,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -230,12 +210,32 @@
         }
     },
     {
-        "pk": 23,
+        "pk": 21,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-29 14:00:00",
+            "end_date": "2018-10-29 14:30:00",
+            "day_of_week": "Monday"
+        }
+    },
+    {
+        "pk": 22,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
             "start_date": "2018-10-29 15:00:00",
             "end_date": "2018-10-29 15:30:00",
+            "day_of_week": "Monday"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-29 16:00:00",
+            "end_date": "2018-10-29 16:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -254,8 +254,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
-            "start_date": "2018-10-29 19:00:00",
-            "end_date": "2018-10-29 19:30:00",
+            "start_date": "2018-10-29 18:00:00",
+            "end_date": "2018-10-29 18:30:00",
             "day_of_week": "Monday"
         }
     },
@@ -264,123 +264,13 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
-            "start_date": "2018-10-29 21:00:00",
-            "end_date": "2018-10-29 21:30:00",
+            "start_date": "2018-10-29 19:00:00",
+            "end_date": "2018-10-29 19:30:00",
             "day_of_week": "Monday"
         }
     },
     {
         "pk": 27,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-29 22:30:00",
-            "end_date": "2018-10-29 23:00:00",
-            "day_of_week": "Monday"
-        }
-    },
-    {
-        "pk": 28,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-30 15:00:00",
-            "end_date": "2018-10-30 18:00:00",
-            "day_of_week": "Tuesday"
-        }
-    },
-    {
-        "pk": 29,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 08:00:00",
-            "end_date": "2018-10-31 11:00:00",
-            "day_of_week": "Wednesday"
-        }
-    },
-    {
-        "pk": 30,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 12:00:00",
-            "end_date": "2018-10-31 12:30:00",
-            "day_of_week": "Wednesday"
-        }
-    },
-    {
-        "pk": 31,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 13:00:00",
-            "end_date": "2018-10-31 13:30:00",
-            "day_of_week": "Wednesday"
-        }
-    },
-    {
-        "pk": 32,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 14:00:00",
-            "end_date": "2018-10-31 14:30:00",
-            "day_of_week": "Wednesday"
-        }
-    },
-    {
-        "pk": 33,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 15:00:00",
-            "end_date": "2018-10-31 15:30:00",
-            "day_of_week": "Wednesday"
-        }
-    },
-    {
-        "pk": 34,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 16:00:00",
-            "end_date": "2018-10-31 16:30:00",
-            "day_of_week": "Wednesday"
-        }
-    },
-    {
-        "pk": 35,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 18:00:00",
-            "end_date": "2018-10-31 18:30:00",
-            "day_of_week": "Wednesday"
-        }
-    },
-    {
-        "pk": 36,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 20:00:00",
-            "end_date": "2018-10-31 20:30:00",
-            "day_of_week": "Wednesday"
-        }
-    },
-    {
-        "pk": 37,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-29 18:00:00",
-            "end_date": "2018-10-29 18:30:00",
-            "day_of_week": "Monday"
-        }
-    },
-    {
-        "pk": 38,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -390,7 +280,17 @@
         }
     },
     {
-        "pk": 39,
+        "pk": 28,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-29 21:00:00",
+            "end_date": "2018-10-29 21:30:00",
+            "day_of_week": "Monday"
+        }
+    },
+    {
+        "pk": 29,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -400,7 +300,17 @@
         }
     },
     {
-        "pk": 40,
+        "pk": 30,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-29 22:30:00",
+            "end_date": "2018-10-29 23:00:00",
+            "day_of_week": "Monday"
+        }
+    },
+    {
+        "pk": 31,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -410,7 +320,17 @@
         }
     },
     {
-        "pk": 41,
+        "pk": 32,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-30 15:00:00",
+            "end_date": "2018-10-30 18:00:00",
+            "day_of_week": "Tuesday"
+        }
+    },
+    {
+        "pk": 33,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -420,7 +340,17 @@
         }
     },
     {
-        "pk": 42,
+        "pk": 34,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-31 08:00:00",
+            "end_date": "2018-10-31 11:00:00",
+            "day_of_week": "Wednesday"
+        }
+    },
+    {
+        "pk": 35,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -430,7 +360,17 @@
         }
     },
     {
-        "pk": 43,
+        "pk": 36,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-31 12:00:00",
+            "end_date": "2018-10-31 12:30:00",
+            "day_of_week": "Wednesday"
+        }
+    },
+    {
+        "pk": 37,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -440,7 +380,17 @@
         }
     },
     {
-        "pk": 44,
+        "pk": 38,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-31 13:00:00",
+            "end_date": "2018-10-31 13:30:00",
+            "day_of_week": "Wednesday"
+        }
+    },
+    {
+        "pk": 39,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -450,7 +400,17 @@
         }
     },
     {
-        "pk": 45,
+        "pk": 40,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-31 14:00:00",
+            "end_date": "2018-10-31 14:30:00",
+            "day_of_week": "Wednesday"
+        }
+    },
+    {
+        "pk": 41,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -460,7 +420,17 @@
         }
     },
     {
-        "pk": 46,
+        "pk": 42,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-31 15:00:00",
+            "end_date": "2018-10-31 15:30:00",
+            "day_of_week": "Wednesday"
+        }
+    },
+    {
+        "pk": 43,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -470,7 +440,17 @@
         }
     },
     {
-        "pk": 47,
+        "pk": 44,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-31 16:00:00",
+            "end_date": "2018-10-31 16:30:00",
+            "day_of_week": "Wednesday"
+        }
+    },
+    {
+        "pk": 45,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -480,12 +460,32 @@
         }
     },
     {
-        "pk": 48,
+        "pk": 46,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-31 18:00:00",
+            "end_date": "2018-10-31 18:30:00",
+            "day_of_week": "Wednesday"
+        }
+    },
+    {
+        "pk": 47,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
             "start_date": "2018-10-31 19:00:00",
             "end_date": "2018-10-31 19:30:00",
+            "day_of_week": "Wednesday"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-10-31 20:00:00",
+            "end_date": "2018-10-31 20:30:00",
             "day_of_week": "Wednesday"
         }
     },
@@ -504,8 +504,8 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
-            "start_date": "2018-10-31 23:00:00",
-            "end_date": "2018-10-31 23:30:00",
+            "start_date": "2018-10-31 22:00:00",
+            "end_date": "2018-10-31 22:30:00",
             "day_of_week": "Wednesday"
         }
     },
@@ -514,73 +514,13 @@
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
-            "start_date": "2018-11-01 13:00:00",
-            "end_date": "2018-11-01 14:30:00",
-            "day_of_week": "Thursday"
-        }
-    },
-    {
-        "pk": 52,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-11-01 20:00:00",
-            "end_date": "2018-11-01 21:30:00",
-            "day_of_week": "Thursday"
-        }
-    },
-    {
-        "pk": 53,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-11-02 07:00:00",
-            "end_date": "2018-11-02 10:00:00",
-            "day_of_week": "Friday"
-        }
-    },
-    {
-        "pk": 54,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-11-02 13:00:00",
-            "end_date": "2018-11-02 16:00:00",
-            "day_of_week": "Friday"
-        }
-    },
-    {
-        "pk": 55,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-11-03 10:00:00",
-            "end_date": "2018-11-03 13:00:00",
-            "day_of_week": "Saturday"
-        }
-    },
-    {
-        "pk": 56,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-11-03 16:00:00",
-            "end_date": "2018-11-03 19:00:00",
-            "day_of_week": "Saturday"
-        }
-    },
-    {
-        "pk": 57,
-        "model": "table_list.table_items",
-        "fields": {
-            "location": "Study Room 224",
-            "start_date": "2018-10-31 22:00:00",
-            "end_date": "2018-10-31 22:30:00",
+            "start_date": "2018-10-31 23:00:00",
+            "end_date": "2018-10-31 23:30:00",
             "day_of_week": "Wednesday"
         }
     },
     {
-        "pk": 58,
+        "pk": 52,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -590,7 +530,17 @@
         }
     },
     {
-        "pk": 59,
+        "pk": 53,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-11-01 13:00:00",
+            "end_date": "2018-11-01 14:30:00",
+            "day_of_week": "Thursday"
+        }
+    },
+    {
+        "pk": 54,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -600,7 +550,17 @@
         }
     },
     {
-        "pk": 60,
+        "pk": 55,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-11-01 20:00:00",
+            "end_date": "2018-11-01 21:30:00",
+            "day_of_week": "Thursday"
+        }
+    },
+    {
+        "pk": 56,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -610,7 +570,17 @@
         }
     },
     {
-        "pk": 61,
+        "pk": 57,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-11-02 07:00:00",
+            "end_date": "2018-11-02 10:00:00",
+            "day_of_week": "Friday"
+        }
+    },
+    {
+        "pk": 58,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -620,7 +590,17 @@
         }
     },
     {
-        "pk": 62,
+        "pk": 59,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-11-02 13:00:00",
+            "end_date": "2018-11-02 16:00:00",
+            "day_of_week": "Friday"
+        }
+    },
+    {
+        "pk": 60,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
@@ -630,12 +610,32 @@
         }
     },
     {
-        "pk": 63,
+        "pk": 61,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-11-03 10:00:00",
+            "end_date": "2018-11-03 13:00:00",
+            "day_of_week": "Saturday"
+        }
+    },
+    {
+        "pk": 62,
         "model": "table_list.table_items",
         "fields": {
             "location": "Study Room 224",
             "start_date": "2018-11-03 13:00:00",
             "end_date": "2018-11-03 16:00:00",
+            "day_of_week": "Saturday"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "table_list.table_items",
+        "fields": {
+            "location": "Study Room 224",
+            "start_date": "2018-11-03 16:00:00",
+            "end_date": "2018-11-03 19:00:00",
             "day_of_week": "Saturday"
         }
     }
