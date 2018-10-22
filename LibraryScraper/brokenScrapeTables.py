@@ -58,19 +58,15 @@ def main():
         print(e)
         browser.quit()
     browser.quit()
-
 def getTimesFromPage(browser):
-    items = []
-    #while len(browser.find_elements_by_css_selector('#s-lc-space-nick-tb_next a')) > 0:
-    for i in range(len(browser.find_elements_by_class_name('paginate_button')) - 2):
-        time.sleep(15)
-        soup = BeautifulSoup(browser.page_source, 'html.parser')
-        # get all items in table with even class
-        items = items + soup.select('tr.even') + soup.select('tr.odd')
-        browser.find_element_by_css_selector('#s-lc-space-nick-tb_next a').click()
-
-    convertItemsToJSON(items)
-def convertItemsToJSON(items):
+    soup = BeautifulSoup(browser.page_source, 'html.parser')
+    # get all items in table with even class
+    items = soup.select('tr.even')
+    # get all items in table with odd class
+    odd_items = soup.select('tr.odd')
+    items = items + odd_items
+    convertItemsToJSON(items, soup)
+def convertItemsToJSON(items, soup):
     json_items = []
     for iterator, item in enumerate(items):
         print(iterator)
