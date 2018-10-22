@@ -36,8 +36,9 @@ const timeUntil = (d) => {
     var millis = d - new Date();
     var minutes = Math.floor(millis / 60000);
     var hours = Math.floor(minutes / 60);
-    var days = Math.floor(hours / 60);
+    var days = Math.floor(hours / 24);
     minutes = Math.floor(minutes % 60);
+    hours = Math.floor(hours % 24);
     return (days + (days == 1 ? " day " : " days ") + 
             hours + (hours == 1 ? " hour " : " hours ") + 
             minutes + (minutes == 1 ? " minute" : " minutes"));
