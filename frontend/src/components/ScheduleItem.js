@@ -33,7 +33,7 @@ const convTime = (d) => {
 }
 
 const timeUntil = (d) => {
-    var millis = d - new Date();
+    var millis = d - Date.now() + d.getTimezoneOffset() * 60000;
     var minutes = Math.floor(millis / 60000);
     var hours = Math.floor(minutes / 60);
     var days = Math.floor(hours / 24);
