@@ -1,14 +1,14 @@
 import React from 'react';
 
 const ScheduleItem = ({data}) => (
-    <div className="card my-4 mx-auto w-75">
+    <div className="card my-4 mx-auto px-4">
         <div className="card-body text-center">
             <h3 className="card-title">{data.location}</h3>
             <ul className="card-text">
                 <li className="lead">{convDate(new Date(data.start_date))}</li>
                 <li>{convTime(new Date(data.start_date))} - {convTime(new Date(data.end_date))}</li>
             </ul>
-            <div className="card-footer text-muted">
+            <div className="card-footer text-muted d-none d-sm-block">
                 <small>Available In: {timeUntil(new Date(data.start_date))}</small>
             </div>
         </div>

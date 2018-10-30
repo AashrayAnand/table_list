@@ -2,7 +2,7 @@ import React from 'react';
 
 const QueryForm = () => {
     return (
-        <div className="container col col-3" id="qform">
+        <div className="container col col-3 d-none d-lg-block" id="qform">
             <div className="sticky-top">
                 <h2 className="text-center p-2">Search Criteria</h2>
                 <form>
