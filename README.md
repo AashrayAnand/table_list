@@ -6,7 +6,7 @@ Scrapes the University of Washington LibCal website for all bookings in **Odegaa
 
 Runs a _case-insensitive_ check for all rooms booked under the name "paphi" and populates a **SQLite** database.
 
-Using **React**, **Redux**, and **AJAX**, displays a list of library reservations, utilizing the **Django** and the **Django REST Framework** to serve this reservation data. The application is hosted on a **DigitalOcean** server.
+Using **React**, **Redux**, and **AJAX**, displays a list of library reservations, utilizing **Django** and the **Django REST Framework** to serve this reservation data. The application is hosted on a **DigitalOcean** server.
 
 
 
