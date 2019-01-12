@@ -40,7 +40,7 @@ def main():
     try:
         browser = webdriver.Firefox(firefox_options=opts)
         getURL(browser)
-        
+
         # get booking name input in form, and replace with name value
         booking_name = browser.find_element_by_name('q')
         booking_name.send_keys(name)
@@ -89,7 +89,7 @@ def convertItemsToJSON(items):
         print("{}     {}".format(times[0], times[1]))
         # get [day of week,month day,year] pattern, split by commas, then split month and day
         date = re.search("(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)" +
-        ",(January|February|March|April|May|June|July|August|September|October|November|December)" + 
+        ",(January|February|March|April|May|June|July|August|September|October|November|December)" +
         "[0-9]+,[0-9]+", clean_text).group(0).split(",")
         # get month from date
         month = re.search("[a-zA-Z]+", date[1]).group(0)
